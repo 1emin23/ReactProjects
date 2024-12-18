@@ -1,0 +1,32 @@
+body {
+  background-color: #003049;
+}
+.card-wrapper {
+  background-color: rgb(102, 155, 188);
+  color: black;
+  border-radius: 0.5rem;
+  padding: 10px;
+  box-shadow: 2px 2px 4px 4px rgba(102, 155, 188, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  backdrop-filter: blur(10px);
+}
+.card-wrapper > * {
+  margin: 10px;
+}
+.flipMeBtn {
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: teal;
+  border: 3px solid transparent;
+  transition: border, color 0.3s ease;
+}
+.flipMeBtn:hover {
+  border: 3px solid black;
+}
+.flipMeBtn:focus {
+  outline: none;
+}
+.result {
+  margin: 20px 0;
+  font-family: "Courier New", Courier, monospace;
+}
